@@ -3,6 +3,7 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
+    path: "/services/waste-to-energy",
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
         <path
@@ -17,7 +18,8 @@ const featuresData: Feature[] = [
       "Utilizing innovative technologies, we convert waste into renewable energy, reducing environmental impact and creating valuable energy sources.",
   },
   {
-    id: 1,
+    id: 2,
+    path: "/services/solar-power",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -32,7 +34,8 @@ const featuresData: Feature[] = [
       "We design and implement state-of-the-art solar solutions that harness sunlight to provide clean energy, tailored to meet the needs of businesses and communities.",
   },
   {
-    id: 1,
+    id: 3,
+    path: "/services/commodities-trading",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -47,7 +50,8 @@ const featuresData: Feature[] = [
       "Our knowledgeable team engages in responsible trading practices, ensuring that our clients have access to sustainable and ethically sourced materials.",
   },
   {
-    id: 1,
+    id: 4,
+    path: "/services/surety-bonds",
     icon: (
       <svg width="40" height="41" viewBox="0 0 40 41" className="fill-current">
         <path
